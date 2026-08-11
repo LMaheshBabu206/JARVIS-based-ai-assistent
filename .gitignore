@@ -1,0 +1,22 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+env/
+venv/
+*.egg-info/
+
+# Sensitive config
+config/api_keys.json
+config/certs/
+*.crt
+*.key
+
+# Workspace
+.vscode/
+
+# Memory / generated data
+memory/long_term.json
+
